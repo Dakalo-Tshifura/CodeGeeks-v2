@@ -7,8 +7,10 @@ nav{
   height: 80px;
   background-color: #ffffff;
   line-height: 80px;
-  /* position: fixed; */
-  z-index: 999;
+ /* position: fixed;  */
+  /* z-index: 999; */
+  display: block;
+  /* transition: top 0.3s; */
 }
 nav ul{
   float: right;
@@ -42,9 +44,19 @@ nav ul li:hover{
   min-height: 50rem;
   background-position: center;
   background-size: cover;
-  
-  
 
+} 
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 18px;
+}
+ .btn:hover {
+  background-color: #4682B4;
+  color: white;
 }
 nav img{
   width: 80px;
@@ -80,6 +92,20 @@ body {
   position: relative;
  
 }*/
+.bttn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  /* background-color: #f1f1f1; */
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* Style the active class, and buttons on mouse-over */
+.active, .bttn:hover {
+  background-color: #798fa8;
+  color: white;
+}
 /* Body */
 .section{
   width: 80%;

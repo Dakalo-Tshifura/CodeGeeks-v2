@@ -127,6 +127,20 @@ li a h2{
   width: 25%;
   padding: 10px;
 }
+.bttn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  /* background-color: #f1f1f1; */
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* Style the active class, and buttons on mouse-over */
+.active, .bttn:hover {
+  background-color: #798fa8;
+  color: white;
+}
 
 /* Clear floats after the columns */
 .row:after {

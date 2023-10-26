@@ -63,7 +63,20 @@ nav img{
   margin-left: 1.9rem;
  margin: auto;
 }
+.bttn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  /* background-color: #f1f1f1; */
+  cursor: pointer;
+  font-size: 18px;
+}
 
+/* Style the active class, and buttons on mouse-over */
+.active, .bttn:hover {
+  background-color: #798fa8;
+  color: white;
+}
 h8 {
   position: relative;
   top: -30px;
