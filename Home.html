@@ -86,7 +86,7 @@
     <div class="w3-row w3-padding-64" id="about">
       <div class="w3-col m6 w3-padding-large w3-hide-small">
         <div class="edit">
-        <img src="why-choose-us.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="400" height="550">
+        <img src="why-choose-us.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="400" height="550" id="whyUs">
       </div>
       </div>
       <div style="width: 450px;" class="w3-col m6 w3-padding-large">
@@ -198,7 +198,26 @@
       </div>
     </div>
   </div>
+  <script type="text/javascript">
+    window.addEventListener('scroll', reveal);
+   function reveal(){
+    var reveals = document.querySelectorAll('.edit');
 
+    for (var i = 0; i < reveals.length; i++) {
+        var windowheight = window.innerHeight;
+        var revealtop = reveals[i].getBoundingClientRect().top;
+        var revealpoint = 150;
+
+        if(revealtop < windowheight - revealpoint){
+          reveals[i].classList.add('active');
+
+        }
+        else{
+          reveals[i].classList.remove('active');
+        }
+    }
+  }
+  </script>
 
 </body>
 
