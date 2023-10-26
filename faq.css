@@ -68,7 +68,20 @@ h8 {
   font-family:Georgia, 'Times New Roman', Times, serif ;
 }
 
+.bttn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  /* background-color: #f1f1f1; */
+  cursor: pointer;
+  font-size: 18px;
+}
 
+/* Style the active class, and buttons on mouse-over */
+.active, .bttn:hover {
+  background-color: #798fa8;
+  color: white;
+}
 
   .faq .faq-list {
     padding: 0 100px;
