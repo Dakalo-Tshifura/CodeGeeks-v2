@@ -13,7 +13,18 @@
       
 </head>
 <body>
-    
+  <script>
+    // Add active class to the current button (highlight it)
+    var header = document.getElementById("myDIV");
+    var btns = header.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function() {
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";
+      });
+    }
+    </script>
    
         <!-- Navbar -->
     <div class="wrapper">
@@ -28,12 +39,12 @@
     
         <ul>
     
-          <li><a href="Home.html">Home</a></li>
-          <li><a href="About Us.html">About</a></li>
-          <li><a href="Events.html">Events</a></li>
-          <li><a href="FAQ.html">FAQ</a></li>
-          <!-- <li><a href="Achievements.html">Achivements</a></li> -->
-          <li><a href="Apply Now.html">Apply</a></li>
+          <li><a href="Home.html" class="bttn " >Home</a></li>
+              <li><a href="About Us.html" class="bttn ">About</a></li>
+              <li><a href="Events.html" class="bttn active">Events</a></li>
+              <li><a href="FAQ.html" class="bttn" >FAQ</a></li>
+             <!-- <li><a href="Achievements.html">Achivements</a></li>  -->
+              <li><a href="Apply Now.html" class="bttn">Apply</a></li>
         </ul>
       </nav>
       <header>
