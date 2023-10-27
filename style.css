@@ -102,7 +102,7 @@ body {
 }
 
 /* Style the active class, and buttons on mouse-over */
-.active, .bttn:hover {
+.activee, .bttn:hover {
   background-color: #798fa8;
   color: white;
 }
