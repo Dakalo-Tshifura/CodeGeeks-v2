@@ -11,7 +11,15 @@ body {
     font-family: 'Yanone Kaffeesatz', Consolas;
     /* overflow: hidden; */
 }
+.Trans{
+  /* display: none; */
+  visibility: hidden;
 
+ }
+ /* .tile{
+  display: flex;
+  flex-direction: column;
+} */
 
 h1 {
     text-align: center;
@@ -23,7 +31,7 @@ h1 {
     /* word-spacing: 3px; */
     /* font-size: 26px; */
     /* font-weight: 400; */
-    background-color: #798fa8;;
+    background-color: #798fa8;
 }
 .app-dates h2{
   color: #333232;
@@ -100,7 +108,7 @@ body {
   box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
 }
 
-.formbold-btn {
+.apply-btn{
   text-align: center;
   font-size: 16px;
   border-radius: 6px;
@@ -112,7 +120,7 @@ body {
   width: 100%;
   cursor: pointer;
 }
-.formbold-btn:hover {
+.apply-btn:hover {
   box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
 }
 
@@ -640,4 +648,15 @@ footer img{
   color:#0082e6;
   background-position: 0;
   width: 100%;
+}
+
+.content {
+  width: 700px;
+  height:1000px;
+  background: #798fa8;
+  padding: 20px;
+  position: center;
+}
+.effect {
+  height: 50px;
 }
