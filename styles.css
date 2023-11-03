@@ -152,9 +152,9 @@ body {
    
 }
 .scroll{
-   border-bottom: 60px solid #fff;
+   border-bottom: 60px solid #eceff8;
     width: auto;
-    height: 420px;
+    height: 620px;
     overflow-x: hidden;
     overflow-y: auto;
     text-align: justify;
@@ -695,3 +695,4 @@ h8 {
 @media max {
   
 }
+
